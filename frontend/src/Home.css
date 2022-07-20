@@ -1,0 +1,21 @@
+.EntirePage{
+    position: absolute;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.ProfilePic{
+    padding-bottom: 10%;
+}
+.Skills{
+    background-color: lightgrey;
+}
+
+.Job{
+    background-color: lightgrey;
+}
+.space{
+    height: 100px;
+
+}

@@ -1,0 +1,36 @@
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+.indent{
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+h3 h5{
+   
+    position: absolute;
+    text-align: center;
+}
+.title{
+    position: absolute;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+}
+.backgroundWhite{
+    background-color: white;
+}
+.column{
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 5%;
+    background-color: lightgray;
+    width: 75%;
+}
+.paragraph{
+    margin-top: 5%;
+}

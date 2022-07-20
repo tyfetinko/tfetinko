@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Navbar,Container,Nav,NavDropdown} from "react-bootstrap"
+import {Navbar,Container,Nav} from "react-bootstrap"
 
 import {LinkContainer} from "react-router-bootstrap"
 export default function Navigation() {
@@ -10,6 +10,7 @@ export default function Navigation() {
     <Container>
         <LinkContainer to="/">
             <Navbar.Brand >
+                Ty Fetinko
             </Navbar.Brand>
         </LinkContainer>
         
@@ -19,13 +20,12 @@ export default function Navigation() {
             <LinkContainer to="/">
                 <Nav.Link href="#home">Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/login" >
-                
-                <Nav.Link href="#link">Login</Nav.Link>
+            <LinkContainer to="/Skills" >
+                <Nav.Link href="">Skills</Nav.Link>
             </LinkContainer>
             
-            <LinkContainer to="/admin" >
-                <Nav.Link>Admin</Nav.Link>
+            <LinkContainer to="/Exp" >
+                <Nav.Link>Experience</Nav.Link>
             </LinkContainer>
             
         </Nav>

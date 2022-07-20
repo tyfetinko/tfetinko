@@ -1,5 +1,4 @@
 import React from "react";
-import { Switch } from "react-router-dom";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import './App.css';
 import Experience from './Experience';
@@ -15,11 +14,11 @@ const App=()=> {
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Skills />} />
-      <Route path="/signup" element={<Experience />} />
-
+      <Route path="/Skills" element={<Skills />} />
+      <Route path="/Exp" element={<Experience />} />
     </Routes>
     </BrowserRouter>
+    
   );
 }
 

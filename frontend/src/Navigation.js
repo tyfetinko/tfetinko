@@ -24,7 +24,7 @@ export default function Navigation() {
                 <Nav.Link href="">Skills</Nav.Link>
             </LinkContainer>
             
-            <LinkContainer to="/Exp" >
+            <LinkContainer to="/Experience" >
                 <Nav.Link>Experience</Nav.Link>
             </LinkContainer>
             

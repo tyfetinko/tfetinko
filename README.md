@@ -1,4 +1,4 @@
 # tfetinko
 ---
-permalink: /index.html
+permalink: /frontend/src/index.js
 ---
